@@ -1,33 +1,39 @@
 /* <!--============== header =============== --> */
-.navbar-brand{
+.navbar-brand {
     margin-left: 10rem;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin-left: 35rem;
 }
-.navbar{
+
+.navbar {
     background-color: black;
-    position: fixed; 
-    width: 100%; 
+    position: fixed;
+    width: 100%;
     z-index: 2;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 25px;
 }
-#amaan-navbar{
+
+#amaan-navbar {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.419) 50%, rgba(0, 0, 0, 0.419) 50%), url(../assetes/hero-bg.jpg);
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
 }
-.tittle{
+
+.tittle {
     font-size: 80px;
     font-weight: 500;
     color: white;
     padding-top: 17rem;
     text-align: center;
 }
+
 /* <!--============== end of header =============== --> */
 
 
@@ -36,25 +42,29 @@
 
 
 /* <!--============== section-1 =============== --> */
-.first-main-div-sec{
+.first-main-div-sec {
     background-color: rgb(236, 236, 236);
     padding-bottom: 40px;
 }
-.content-about{
+
+.content-about {
     font-size: larger;
     line-height: 1.5;
 }
-.row{
+
+.row {
     padding-top: 60px;
     padding-bottom: 60px;
 
 }
-.col-md-6{
+
+.col-md-6 {
     background-color: #fff;
     padding-top: 60px;
     padding-bottom: 80px;
 }
-.same-div-4{
+
+.same-div-4 {
     margin-top: 20px;
 }
 
@@ -65,9 +75,10 @@
 
 
 /* <!--============== section-2 =============== --> */
-.service-sec{
-    background-color:  rgb(236, 236, 236);
+.service-sec {
+    background-color: rgb(236, 236, 236);
 }
+
 .service-main-div {
     background-color: #fff;
     padding: 2.5rem 1.3rem;
@@ -75,20 +86,24 @@
     margin-bottom: 3rem;
     text-align: center;
 }
+
 .service-main-div .service-icon {
     margin-bottom: 1rem;
     color: #1e1e1e;
 }
-.row{
+
+.row {
     padding-top: 0;
     padding-bottom: 0;
 }
+
 .service-main-div .icon-circle {
     transition: all 500ms ease;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
+
 .icon-circle {
     height: 100px;
     width: 100px;
@@ -100,29 +115,35 @@
     box-shadow: 0 0 0 10px #0078ff;
     display: block;
 }
+
 .service-main-div .icon-circle i {
     line-height: 0;
     font-size: 40px;
 }
-.service-icon :hover{
+
+.service-icon :hover {
     background-color: #0078ff;
     color: #fff;
 }
+
 .service-main-div .s-title {
     font-size: 1.4rem;
     text-align: center;
     padding: 0.4rem 0;
 }
-.service-main-div:hover .icon-circle{
+
+.service-main-div:hover .icon-circle {
     transition: all 500ms ease;
     color: #fff;
     background-color: #0078ff;
     box-shadow: 0 0 0 10px #cde1f8;
 }
-.content-service{
+
+.content-service {
     text-align: center;
     padding-top: 70px;
 }
+
 /* <!--============== end of section =============== --> */
 
 
@@ -131,20 +152,23 @@
 
 
 /* <!--============== section-3 =============== --> */
-.bg-four-div-sec{
+.bg-four-div-sec {
     background: linear-gradient(to top, #0077ffbe 50%, #0077ffbe 50%), url(../assetes/counters-bg.jpg);
     background-attachment: fixed;
     height: 60vh;
 }
-.four-div-icon{
+
+.four-div-icon {
     margin-bottom: 2rem;
 }
+
 .four-div-icon .icon-circle {
     height: 60px;
     width: 60px;
     line-height: 1.5;
     box-shadow: 0 0 0 10px #cde1f8;
 }
+
 .icon-circle {
     height: 100px;
     width: 100px;
@@ -156,14 +180,17 @@
     box-shadow: 0 0 0 10px #0078ff;
     display: block;
 }
+
 .four-main-div {
     color: #fff;
     text-align: center;
     padding-top: 10rem;
 }
-.row{
+
+.row {
     margin: 0;
 }
+
 /* <!--============== end of section =============== --> */
 
 
@@ -172,23 +199,28 @@
 
 
 /* <!--============== section-4 =============== --> */
-.card{
-    position:static;
+.card {
+    position: static;
 }
-.port-content-div{
+
+.port-content-div {
     text-align: center;
     margin-top: 5rem;
 }
-.card-img{
+
+.card-img {
     display: block;
     overflow: hidden;
 }
-.card-img img{
+
+.card-img img {
     transition: all 1s;
 }
-.card-img img:hover{
+
+.card-img img:hover {
     transform: scale(1.3);
 }
+
 /* <!--============== end of section =============== --> */
 
 
@@ -198,7 +230,7 @@
 
 
 /* <!--============== section-5 =============== --> */
-.bg-cricle-main{
+.bg-cricle-main {
     background: linear-gradient(to top, #0077ffbe 50%, #0077ffbe 50%), url(../assetes/overlay-bg.jpg);
     background-position: center;
     background-size: cover;
@@ -206,17 +238,21 @@
     height: 80vh;
     margin-top: 5rem;
 }
-.main-div{
+
+.main-div {
     text-align: center;
     padding-top: 8rem;
 }
-.cricle-img{
+
+.cricle-img {
     border-radius: 150px;
 }
-.main-div-content{
+
+.main-div-content {
     padding-top: 3rem;
     color: #fff;
 }
+
 /* <!--============== end of section =============== --> */
 
 
@@ -226,14 +262,16 @@
 
 
 /* <!--============== section-6 =============== --> */
-.blog-sec{
+.blog-sec {
     padding-bottom: 5rem;
 }
-.blog-content-div{
+
+.blog-content-div {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
 /* <!--============== end of section =============== --> */
 
 
@@ -242,31 +280,36 @@
 
 
 /* <!--============== section-7 =============== --> */
-.form-sec{
-    background:  linear-gradient(to top, #0077ffbe 50%, #0077ffbe 50%), url(../assetes/overlay-bg.jpg);
+.form-sec {
+    background: linear-gradient(to top, #0077ffbe 50%, #0077ffbe 50%), url(../assetes/overlay-bg.jpg);
     height: 100vh;
-    background-attachment:fixed ;
+    background-attachment: fixed;
 }
-.box-main-div{
+
+.box-main-div {
     background-color: white;
     margin-top: 5rem;
     padding-bottom: 5rem;
 
 }
-.f-content{
+
+.f-content {
     padding-top: 3rem;
     padding-bottom: 1rem;
 }
-.input-all-div{
+
+.input-all-div {
     margin-top: 10px;
 }
-.form{
+
+.form {
     padding-left: 20px;
-    padding-right: 400px;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.btn-massage{
+
+.btn-massage {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -276,34 +319,42 @@
     border-color: #0078ff;
     color: white;
 }
-.f-btn-div{
+
+.f-btn-div {
     margin-top: 25px;
     text-align: center;
 }
-.massage{
+
+.massage {
     padding-left: 20px;
-    padding-right: 400px;
-    padding-bottom: 80px;
+    width: 100%;
+
 }
-.f-subtittle{
+
+.f-subtittle {
     font-size: 20px;
     padding-top: 20px;
 }
+
 .socials-icon {
     padding: 1.5rem 0;
 }
+
 ul {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
 }
+
 .socials-icon ul li {
     display: inline-block;
 }
-.socials-icon i{
+
+.socials-icon i {
     font-size: 25px;
     margin-left: 10px;
 }
+
 /* <!--============== end of section =============== --> */
 
 
@@ -313,11 +364,12 @@ ul {
 
 
 /* <!--============== footer =============== --> */
-.footer-sec{
+.footer-sec {
     background-color: #0078ff;
     height: 12vh;
 }
-.footer-subtittle{
+
+.footer-subtittle {
     text-align: center;
     padding-top: 15px;
     color: white;
