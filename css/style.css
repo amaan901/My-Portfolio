@@ -155,7 +155,8 @@
 .bg-four-div-sec {
     background: linear-gradient(to top, #0077ffbe 50%, #0077ffbe 50%), url(../assetes/counters-bg.jpg);
     background-attachment: fixed;
-    height: 60vh;
+    /* height: 60vh; */
+    padding-bottom: 40px;
 }
 
 .four-div-icon {
@@ -184,7 +185,7 @@
 .four-main-div {
     color: #fff;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .row {
@@ -235,13 +236,14 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 80vh;
-    margin-top: 5rem;
+    /* height: 80vh; */
+    /* margin-top: 5rem; */
+    padding-bottom: 4rem;
 }
 
 .main-div {
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 4rem;
 }
 
 .cricle-img {
@@ -282,14 +284,14 @@
 /* <!--============== section-7 =============== --> */
 .form-sec {
     background: linear-gradient(to top, #0077ffbe 50%, #0077ffbe 50%), url(../assetes/overlay-bg.jpg);
-    height: 100vh;
+    padding-bottom: 40px;
     background-attachment: fixed;
 }
 
 .box-main-div {
     background-color: white;
-    margin-top: 5rem;
-    padding-bottom: 5rem;
+    /* margin-top: 5rem;
+    padding-bottom: 5rem; */
 
 }
 
@@ -323,6 +325,7 @@
 .f-btn-div {
     margin-top: 25px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .massage {
@@ -366,7 +369,6 @@ ul {
 /* <!--============== footer =============== --> */
 .footer-sec {
     background-color: #0078ff;
-    height: 12vh;
 }
 
 .footer-subtittle {
@@ -374,6 +376,7 @@ ul {
     padding-top: 15px;
     color: white;
     line-height: 2;
+    margin-bottom: 0;
 }
 
 

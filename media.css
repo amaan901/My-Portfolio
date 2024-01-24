@@ -13,55 +13,80 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   .navbar-brand {
     margin-left: 23px;
-}
+  }
+
   .form {
     padding-right: 315px;
     padding-top: 9px;
-}
-.massage{
-  padding-right: 315px;
-}
+  }
+
+  .massage {
+    padding-right: 315px;
+  }
 }
 
 /* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
-  */
+*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  #amaan-navbar {
+    /* background-attachment: scroll;
+    background-size: cover;
+    background-position: center center; */
+    height: 66vh;
+  }
   .navbar-brand {
     margin-left: 2rem;
+  }
+
+  .navbar-toggler {
+    background-color: aliceblue;
+    color: white;
+   
 }
+
+  .navbar-nav {
+    margin-left: 1rem;
+}
+
   .tittle {
     font-size: 102px;
     font-weight: 500;
     color: white;
-    padding-top: 30rem;
     text-align: center;
-}
-.col-md-7 {
-  width: 100%;
-}
-.bg-four-div-sec {
-  height: 38vh;
-  background-size: cover;
-  background-position: center center;
-}
-.bg-cricle-main {
-  height: 49vh;
-}
-.form-sec {
-  height: 66vh;
-  background-attachment: scroll;
-}
-.form {
-  padding-right: 102px;
-  padding-top: 12px;
-  padding-bottom: 10px;
-}
-.massage{
-  padding-right: 102px;
-}
+  }
+
+  .col-md-7 {
+    width: 100%;
+  }
+
+  .bg-four-div-sec {
+    /* height: 38vh; */
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .form-sec {
+    /* height: 81vh; */
+    background-attachment: scroll;
+  }
+
+  .form {
+    padding-right: 102px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+
+  .massage {
+    padding-right: 102px;
+  }
+
+  .main-div {
+    padding-top: 2rem;
+  }
 }
 
 /* 
@@ -84,8 +109,14 @@
   */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .navbar-toggler {
+    background-color: aliceblue;
+    color: white;
+   
+}
+
   .navbar-brand {
-    margin-left: 1rem;
+    margin-left: 0rem !important;
   }
 
   .navbar-nav {
@@ -97,15 +128,14 @@
   }
 
   .tittle {
-    font-size: 3rem;
-    padding-top: 13rem;
+    font-size: 4rem;
   }
 
   #amaan-navbar {
     background-attachment: scroll;
     background-size: cover;
     background-position: center center;
-    height: 82vh;
+    /* height: 82vh; */
   }
 
   .pt-5 {
@@ -114,7 +144,6 @@
 
   .bg-four-div-sec {
     background-attachment: scroll;
-    padding-bottom: 66rem;
   }
 
   .four-main-div {
@@ -135,7 +164,6 @@
   }
 
   .form-sec {
-    padding-bottom: 68rem;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,10 +172,6 @@
 
   .form {
     padding-right: 110px;
-  }
-
-  .bg-cricle-main {
-    padding-bottom: 35rem;
   }
 
   .massage {
