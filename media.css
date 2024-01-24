@@ -33,11 +33,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
   #amaan-navbar {
-    /* background-attachment: scroll;
-    background-size: cover;
-    background-position: center center; */
     height: 66vh;
   }
+
   .navbar-brand {
     margin-left: 2rem;
   }
@@ -45,12 +43,12 @@
   .navbar-toggler {
     background-color: aliceblue;
     color: white;
-   
-}
+
+  }
 
   .navbar-nav {
     margin-left: 1rem;
-}
+  }
 
   .tittle {
     font-size: 102px;
@@ -64,13 +62,11 @@
   }
 
   .bg-four-div-sec {
-    /* height: 38vh; */
     background-size: cover;
     background-position: center center;
   }
 
   .form-sec {
-    /* height: 81vh; */
     background-attachment: scroll;
   }
 
@@ -112,8 +108,8 @@
   .navbar-toggler {
     background-color: aliceblue;
     color: white;
-   
-}
+
+  }
 
   .navbar-brand {
     margin-left: 0rem !important;
