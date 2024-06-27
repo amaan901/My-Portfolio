@@ -1202,7 +1202,7 @@ footer a {
     }
 
     .img-about img {
-        width: 300px;
+        width: 250px;
     }
 
     .info-about1,
@@ -1217,6 +1217,9 @@ footer a {
 
     .wtsp-icon a {
         bottom: 65px;
+        right: 10px;
+        font-size: 22px;
+        padding: 0px 11px 7px;
     }
 
     .img-box img {
